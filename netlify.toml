@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/api/docs/*"
+  to = "https://grist.numerique.gouv.fr/api/docs/:splat"
+  status = 200
+  force = true
+  headers = {Authorization = "Bearer ${VITE_GRIST_TOKEN}"}
