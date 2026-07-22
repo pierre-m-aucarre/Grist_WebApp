@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/api/docs/*"
-  to = "/.netlify/functions/grist-proxy/api/docs/:splat"
-  status = 200
-  force = true

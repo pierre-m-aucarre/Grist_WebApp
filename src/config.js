@@ -1,4 +1,9 @@
-export const gristConfig = {
-  url: import.meta.env.VITE_GRIST_URL,
-  docId: import.meta.env.VITE_GRIST_DOC_ID,
+export const n8nConfig = {
+  webhookUrl: import.meta.env.VITE_N8N_WEBHOOK_URL,
+  webhookKey: import.meta.env.VITE_N8N_WEBHOOK_KEY,
+};
+
+export const GRIST_TABLES = {
+  HOME: 'Home',
+  ARTICLE: 'Article',
 };
